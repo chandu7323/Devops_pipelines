@@ -17,7 +17,7 @@ jobs:
         with:
             node-version: 16
 
-      - name: Install Independencies
+      - name: Install Dependencies
         run: npm install
       
       - name: Run tests
